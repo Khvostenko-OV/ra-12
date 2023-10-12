@@ -1,0 +1,81 @@
+.body {
+  margin: 1em;
+}
+
+.header {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.btn-reload {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  background: white;
+  color: green;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: default;
+}
+
+.btn-close {
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  background: white;
+  color: red;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: default;
+  position: absolute;
+  top: -.7em;
+  right: -.7em;
+}
+
+.btn-send {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  font-size: large;
+  background: white;
+  color: blue;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: default;
+  position: absolute;
+  bottom: -.7em;
+  right: -1em;
+}
+
+.card-list {
+  margin: 1em 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 240px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 0 1em 1em 0;
+  padding: .5em;
+  text-align: justify;
+  position: relative;
+}
+
+pre {
+  margin: 0;
+}
+
+.card-new {
+  width: fit-content;
+  position: relative;
+}
+
+.text {
+  width: 360px;
+  padding: .5em;
+}
